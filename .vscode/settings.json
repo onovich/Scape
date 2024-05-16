@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "Vista.sln"
+    "dotnet.defaultSolution": "Scape.sln"
 }
