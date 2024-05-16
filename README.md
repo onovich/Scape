@@ -1,4 +1,4 @@
-# Vista
+# Scape
 Scape, 3D camera library, named after "景". The goal is to make it simpler, easier to use, and more accurate than Cinemachine.<br/>
 **Scape, 3d 相机库，取名自「景」。目标是做得比 Cinemachine 简单、易用、准确。**
 
