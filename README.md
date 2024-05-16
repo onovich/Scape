@@ -7,8 +7,8 @@ Scape, 3D camera library, named after "景". The goal is to make it simpler, eas
 Scape provides managed 3D Camera functionality for Unity. Currently, it is only suitable for perspective cameras in third-person scenes.<br/>
 **Scape 为 Unity 里的 3D Camera 提供托管。目前仅适用于透视相机、第三人称场景。**
 
-If you need a 2D camera, please refer to [Visita](https://github.com/onovich/Vista).<br>
-**如果需要 2D 相机，请移步到 [Visita](https://github.com/onovich/Vista)。**
+If you need a 2D camera, please refer to [Vista](https://github.com/onovich/Vista).<br>
+**如果需要 2D 相机，请移步到 [Vista](https://github.com/onovich/Vista)。**
 
 Scape does not hijack any Camera or Transform components from the upper layer, ensuring no side effects. The upper layer records the virtual camera created by the lower layer using an id, and it can be queried and accessed through interfaces.<br/>
 **Scape 的底层不会劫持上层的任何 Camera 或 Transform，不会产生副作用。上层以 id  的形式记录下层创建的虚拟相机，通过接口查询和访问。**
