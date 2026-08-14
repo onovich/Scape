@@ -1,30 +1,30 @@
 # Scape
 
-[简体中文](README.zh-CN.md)
+[English](README.md)
 
-A lightweight third-person 3D camera library for Unity.
+轻量 Unity 3D 第三人称相机库。
 
-![Scape cover](docs/cover.png)
+![Scape 封面](docs/cover.png)
 
-## What it includes
+## 项目包含什么
 
-- Third-person camera behavior.
-- Reusable Unity package.
-- Runtime sample.
+- 第三人称相机行为。
+- 可复用 Unity 包。
+- 运行时示例。
 
-## Getting started
+## 快速开始
 
-In Unity, open **Window → Package Manager**, choose **Add package from git URL**, and enter:
+在 Unity 中打开 **Window → Package Manager**，选择 **Add package from git URL**，输入：
 
 ```text
 https://github.com/onovich/Scape.git?path=/Assets/com.tenon.scape#main
 ```
 
-The package metadata declares Unity `2019.4` or later.
+包元数据声明支持 Unity `2019.4` 及以上版本。
 
-The repository can also be opened as a Unity sample project.
+仓库本身也可以作为 Unity 示例工程打开。
 
-## Example
+## 示例
 
 ```csharp
 // Create And Init Camera
@@ -60,21 +60,21 @@ void Start() {
 }
 ```
 
-## Repository map
+## 仓库结构
 
-- `Assets/` — Unity scripts, scenes, packages, and authored assets.
-- `Packages/` — Unity package dependencies.
-- `ProjectSettings/` — Unity project configuration.
+- `Assets/` — Unity 脚本、场景、包与项目资源。
+- `Packages/` — Unity 包依赖。
+- `ProjectSettings/` — Unity 工程配置。
 
-## Related projects
+## 相关项目
 
 - [Vista](https://github.com/onovich/Vista)
 - [Swing](https://github.com/onovich/Swing)
 
-## Status
+## 当前状态
 
-Scape is still in development and is not recommended for production use. The current scope is perspective, third-person cameras; several manual, zone, tracking, and transition features remain unfinished.
+Scape 仍在开发中，不建议用于正式项目。当前只覆盖透视第三人称相机，多项手动控制、区域、跟踪和转场功能尚未完成。
 
-## License
+## 许可证
 
-This repository is licensed under [MIT](LICENSE).
+本仓库采用 [MIT](LICENSE) 许可证。
